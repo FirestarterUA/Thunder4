@@ -1,0 +1,6 @@
+fields:
+    name:
+        label: 'firestarter.thunder4::lang.group.form.name'
+        oc.commentPosition: ''
+        span: auto
+        type: text

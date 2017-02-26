@@ -1,0 +1,10 @@
+name: Templates
+form: $/firestarter/thunder4/models/template/fields.yaml
+modelClass: Firestarter\Thunder4\Models\Template
+defaultRedirect: firestarter/thunder4/templates
+create:
+    redirect: 'firestarter/thunder4/templates/update/:id'
+    redirectClose: firestarter/thunder4/templates
+update:
+    redirect: firestarter/thunder4/templates
+    redirectClose: firestarter/thunder4/templates

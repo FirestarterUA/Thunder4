@@ -1,0 +1,16 @@
+{
+    "name": "firestarter/thunder4",
+    "type": "october-plugin",
+    "description": "Thunder4 Site Generator For October cms",
+    "homepage": "http://octobercms.com",
+    "keywords": ["october", "cms", "firestarter", "thunder4", "thunder3"],
+    "authors": [
+        {
+            "name": "Aleksandr Bolyk",
+            "email": "bolyk1987@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    }
+}

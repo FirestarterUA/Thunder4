@@ -1,0 +1,10 @@
+name: Tasks
+form: $/firestarter/thunder4/models/task/fields.yaml
+modelClass: Firestarter\Thunder4\Models\Task
+defaultRedirect: firestarter/thunder4/tasks
+create:
+    redirect: 'firestarter/thunder4/tasks/update/:id'
+    redirectClose: firestarter/thunder4/tasks
+update:
+    redirect: firestarter/thunder4/tasks
+    redirectClose: firestarter/thunder4/tasks

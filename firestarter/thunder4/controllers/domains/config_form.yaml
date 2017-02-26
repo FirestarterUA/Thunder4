@@ -1,0 +1,10 @@
+name: Domains
+modelClass: Firestarter\Thunder4\Models\Domain
+form: $/firestarter/thunder4/models/domain/fields.yaml
+defaultRedirect: firestarter/thunder4/domains
+create:
+    redirect: 'firestarter/thunder4/domains/update/:id'
+    redirectClose: firestarter/thunder4/domains
+update:
+    redirect: firestarter/thunder4/domains
+    redirectClose: firestarter/thunder4/domains

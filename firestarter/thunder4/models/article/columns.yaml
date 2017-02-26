@@ -1,0 +1,22 @@
+columns:
+    keyword:
+        label: 'firestarter.thunder4::lang.article.form.keyword'
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: 'firestarter.thunder4::lang.article.form.title'
+        type: text
+        searchable: true
+        sortable: true
+    domain:
+        label: 'firestarter.thunder4::lang.article.list.category'
+        relation: category
+        select: name
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'firestarter.thunder4::lang.article.form.keyword'
+        type: timesince
+        searchable: true
+        sortable: true

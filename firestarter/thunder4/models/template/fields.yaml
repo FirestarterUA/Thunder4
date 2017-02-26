@@ -1,0 +1,18 @@
+fields:
+    name:
+        label: 'firestarter.thunder4::lang.template.list.name'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    title_template:
+        label: 'firestarter.thunder4::lang.template.form.title_template'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    template:
+        label: 'firestarter.thunder4::lang.template.form.template'
+        oc.commentPosition: ''
+        size: giant
+        language: html
+        span: full
+        type: codeeditor

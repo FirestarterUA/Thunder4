@@ -1,0 +1,6 @@
+scopes:
+    group:
+        label: Группа
+        modelClass: Firestarter\Thunder4\Models\Group
+        conditions: id in (:filtered)
+        nameFrom: name

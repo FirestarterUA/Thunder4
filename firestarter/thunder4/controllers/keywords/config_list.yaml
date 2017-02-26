@@ -1,0 +1,12 @@
+list: $/firestarter/thunder4/models/keyword/columns.yaml
+modelClass: Firestarter\Thunder4\Models\Keyword
+title: Keywords
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 100
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'firestarter/thunder4/keywords/update/:id'

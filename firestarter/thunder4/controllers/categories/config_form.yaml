@@ -1,0 +1,10 @@
+name: Categories
+form: $/firestarter/thunder4/models/category/fields.yaml
+modelClass: Firestarter\Thunder4\Models\Category
+defaultRedirect: firestarter/thunder4/categories
+create:
+    redirect: 'firestarter/thunder4/categories/update/:id'
+    redirectClose: firestarter/thunder4/categories
+update:
+    redirect: firestarter/thunder4/categories
+    redirectClose: firestarter/thunder4/categories

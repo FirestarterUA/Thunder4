@@ -1,0 +1,15 @@
+list: $/firestarter/thunder4/models/category/columns.yaml
+modelClass: Firestarter\Thunder4\Models\Category
+title: Categories
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 100
+showSetup: true
+showCheckboxes: true
+showTree: true
+filter: config_filter.yaml
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'firestarter/thunder4/categories/update/:id'
+

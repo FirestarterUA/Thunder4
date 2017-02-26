@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: 'firestarter.thunder4::lang.task.form.name'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+        required: true
+    cron:
+        label: 'firestarter.thunder4::lang.task.form.cron'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+        default: '* * * * *'
+        required: true
+    command:
+        label: 'firestarter.thunder4::lang.task.form.command'
+        oc.commentPosition: ''
+        span: full
+        type: text
+        required: true
+    commands:
+        type: partial
+        path: $/firestarter/thunder4/console/_commands_field.htm
+    is_console:
+        label: 'firestarter.thunder4::lang.task.form.is_console'
+        span: auto
+        type: switch

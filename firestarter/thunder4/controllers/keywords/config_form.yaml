@@ -1,0 +1,10 @@
+name: Keywords
+form: $/firestarter/thunder4/models/keyword/fields.yaml
+modelClass: Firestarter\Thunder4\Models\Keyword
+defaultRedirect: firestarter/thunder4/keywords
+create:
+    redirect: 'firestarter/thunder4/keywords/update/:id'
+    redirectClose: firestarter/thunder4/keywords
+update:
+    redirect: firestarter/thunder4/keywords
+    redirectClose: firestarter/thunder4/keywords

@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: 'firestarter.thunder4::lang.task.list.id'
+        type: text
+        sortable: true
+    name:
+        label: 'firestarter.thunder4::lang.task.list.name'
+        type: text
+        searchable: true
+        sortable: true
+    command:
+        label: 'firestarter.thunder4::lang.task.list.command'
+        type: text
+        searchable: true
+        sortable: true
+    cron:
+        label: 'firestarter.thunder4::lang.task.list.cron'
+        type: text
+        searchable: true
+        sortable: true

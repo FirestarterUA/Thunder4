@@ -1,0 +1,5 @@
+title: Categories
+modelClass: Firestarter\Thunder4\Models\Category
+filter: config_filter.yaml
+toolbar:
+    buttons: reorder_toolbar

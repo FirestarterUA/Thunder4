@@ -1,0 +1,12 @@
+columns:    
+    id:
+        label: 'firestarter.thunder4::lang.keyword.list.id'
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: 'firestarter.thunder4::lang.keyword.list.name'
+        type: text
+        searchable: true
+        sortable: true
+

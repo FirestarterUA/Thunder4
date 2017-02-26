@@ -1,0 +1,37 @@
+plugin:
+    name: 'firestarter.thunder4::lang.plugin.name'
+    description: 'firestarter.thunder4::lang.plugin.description'
+    author: Firestarter
+    icon: oc-icon-fire
+    homepage: 'http://ifirestarter.ru'
+navigation:
+    main-thunder4-item:
+        label: 'firestarter.thunder4::lang.plugin.name'
+        url: firestarter/thunder4/groups
+        icon: icon-fire
+        order: '100'
+        sideMenu:
+            side-menu-item5:
+                label: 'firestarter.thunder4::lang.keyword.menu.title'
+                url: firestarter/thunder4/keywords
+                icon: icon-keyboard-o
+            side-menu-item:
+                label: 'firestarter.thunder4::lang.group.menu.title'
+                url: firestarter/thunder4/groups
+                icon: icon-sitemap
+            side-menu-item2:
+                label: 'firestarter.thunder4::lang.domain.menu.title'
+                url: firestarter/thunder4/domains
+                icon: icon-shekel
+            side-menu-item4:
+                label: 'firestarter.thunder4::lang.category.menu.title'
+                url: firestarter/thunder4/categories
+                icon: icon-sitemap
+            side-menu-item3:
+                label: 'firestarter.thunder4::lang.article.menu.title'
+                url: firestarter/thunder4/articles
+                icon: icon-files-o
+            side-menu-item6:
+                label: 'firestarter.thunder4::lang.task.menu.title'
+                url: firestarter/thunder4/tasks
+                icon: icon-tasks

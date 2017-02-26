@@ -1,0 +1,41 @@
+fields:
+    keyword:
+        label: 'firestarter.thunder4::lang.article.form.keyword'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    title:
+        label: 'firestarter.thunder4::lang.article.form.title'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    slug:
+        label: 'firestarter.thunder4::lang.article.form.slug'
+        oc.commentPosition: ''
+        span: right
+        preset:
+            field: title
+            type: url
+    domain:
+        label: 'firestarter.thunder4::lang.article.form.domain'
+        oc.commentPosition: ''
+        span: auto
+        type: dropdown
+    category_id:
+        label: 'firestarter.thunder4::lang.article.form.category'
+        oc.commentPosition: ''
+        span: auto
+        type: dropdown
+        dependsOn: domain
+    description:
+        label: 'firestarter.thunder4::lang.article.form.description'
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    body:
+        label: 'firestarter.thunder4::lang.article.form.body'
+        size: huge
+        oc.commentPosition: ''
+        span: full
+        type: richeditor

@@ -1,0 +1,18 @@
+columns:
+    name:
+        label: 'firestarter.thunder4::lang.domain.list.name'
+        type: text
+        searchable: true
+        sortable: true
+    theme:
+        label: 'firestarter.thunder4::lang.domain.list.theme'
+        type: text
+        searchable: true
+        sortable: true
+    se:
+        label: 'firestarter.thunder4::lang.domain.list.se'
+        type: partial
+        searchable: false
+        sortable: false
+        cssClass: nolink
+        path: ~/plugins/firestarter/thunder4/controllers/domains/_se_column.htm

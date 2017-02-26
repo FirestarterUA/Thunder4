@@ -1,0 +1,13 @@
+title: Domains
+modelClass: Firestarter\Thunder4\Models\Domain
+list: $/firestarter/thunder4/models/domain/columns.yaml
+recordUrl: 'firestarter/thunder4/domains/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 100
+showSetup: true
+showCheckboxes: true
+filter: config_filter.yaml
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

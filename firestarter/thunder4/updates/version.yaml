@@ -1,0 +1,110 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table firestarter_thunder4_groups'
+    - builder_table_create_firestarter_thunder4_groups.php
+1.0.3:
+    - 'Created table firestarter_thunder4_domains'
+    - builder_table_create_firestarter_thunder4_domains.php
+1.0.4:
+    - 'Created table firestarter_thunder4_domain_group'
+    - builder_table_create_firestarter_thunder4_domain_group.php
+1.0.5:
+    - 'Updated table firestarter_thunder4_domain_group'
+    - builder_table_update_firestarter_thunder4_domain_group.php
+1.0.6:
+    - 'Updated table firestarter_thunder4_domain_group'
+    - builder_table_update_firestarter_thunder4_domain_group_2.php
+1.0.7:
+    - 'Updated table firestarter_thunder4_groups'
+    - builder_table_update_firestarter_thunder4_groups.php
+1.0.8:
+    - 'Updated table firestarter_thunder4_domains'
+    - builder_table_update_firestarter_thunder4_domains.php
+1.0.9:
+    - 'Created table firestarter_thunder4_categories'
+    - builder_table_create_firestarter_thunder4_categories.php
+1.0.10:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories.php
+1.0.11:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_2.php
+1.0.12:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_3.php
+1.0.13:
+    - 'Updated table firestarter_thunder4_domains'
+    - builder_table_update_firestarter_thunder4_domains_2.php
+1.0.14:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_4.php
+1.0.15:
+    - 'Updated table firestarter_thunder4_groups'
+    - builder_table_update_firestarter_thunder4_groups_2.php
+1.0.16:
+    - 'Updated table firestarter_thunder4_domain_group'
+    - builder_table_update_firestarter_thunder4_domain_group_3.php
+1.0.17:
+    - 'Updated table firestarter_thunder4_groups'
+    - builder_table_update_firestarter_thunder4_groups_3.php
+1.0.18:
+    - 'Created table firestarter_thunder4_articles'
+    - builder_table_create_firestarter_thunder4_articles.php
+1.0.19:
+    - 'Updated table firestarter_thunder4_articles'
+    - builder_table_update_firestarter_thunder4_articles.php
+1.0.20:
+    - 'Updated table firestarter_thunder4_articles'
+    - builder_table_update_firestarter_thunder4_articles_2.php
+1.0.21:
+    - 'Updated table firestarter_thunder4_domains'
+    - builder_table_update_firestarter_thunder4_domains_3.php
+1.0.22:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_5.php
+1.0.23:
+    - 'Created table firestarter_thunder4_templates'
+    - builder_table_create_firestarter_thunder4_templates.php
+1.0.24:
+    - 'Created table firestarter_thunder4_keywords'
+    - builder_table_create_firestarter_thunder4_keywords.php
+1.0.25:
+    - 'Created table firestarter_thunder4_tasks'
+    - builder_table_create_firestarter_thunder4_tasks.php
+1.0.26:
+    - 'Updated table firestarter_thunder4_tasks'
+    - builder_table_update_firestarter_thunder4_tasks.php
+1.0.27:
+    - 'Updated table firestarter_thunder4_tasks'
+    - builder_table_update_firestarter_thunder4_tasks_2.php
+1.0.28:
+    - 'Updated table firestarter_thunder4_tasks'
+    - builder_table_update_firestarter_thunder4_tasks_3.php
+1.0.29:
+    - 'Updated table firestarter_thunder4_tasks'
+    - builder_table_update_firestarter_thunder4_tasks_4.php
+1.0.30:
+    - 'Updated table firestarter_thunder4_templates'
+    - builder_table_update_firestarter_thunder4_templates.php
+1.0.31:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_6.php
+1.0.32:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_7.php
+1.0.33:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_8.php
+1.0.34:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_9.php
+1.0.35:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_10.php
+1.0.36:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_11.php
+1.0.37:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_12.php

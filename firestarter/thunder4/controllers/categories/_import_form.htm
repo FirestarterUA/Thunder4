@@ -1,0 +1,33 @@
+<?= Form::ajax('onImportCategories', ['class' => 'layout', 'confirm' => 'Are you sure?']); ?>
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="popup">&times;</button>
+    <h4 class="modal-title"><?= e(trans('firestarter.thunder4::lang.category.form.import_categories')) ?></h4>
+</div>
+<div class="modal-body">
+
+    <?php if ($this->fatalError): ?>
+    <p class="flash-message static error"><?= $fatalError ?></p>
+    <?php endif ?>	
+	
+	<div>
+<label for="categories_file"><?= e(trans('firestarter.thunder4::lang.category.form.file')) ?></label>
+	<?= Form::select('categories_file', $categories_lists, '',['class'=>'text-field span-right form-control custom-select','id'=>'categories_file']) ?>
+	<p class="help-block"><?= e(trans('firestarter.thunder4::lang.category.form.file_comment')) ?></p>
+	<br/>
+	<label for="categories_schema"><?= e(trans('firestarter.thunder4::lang.category.form.categories_schema')) ?></label>
+	<?= Form::text('categories_schema', '3;9;18',['class'=>'text-field span-right form-control','id'=>'categories_schema']) ?>
+	<p class="help-block"><?= e(trans('firestarter.thunder4::lang.category.form.categories_schema_comment')) ?></p>
+	</div>
+
+	<br>
+	
+	<br>
+	
+	<?= Form::submit(trans('firestarter.thunder4::lang.category.form.import'),['class'=>'btn btn-primary btn-lg']); ?>
+	
+
+</div>
+
+<div class="modal-footer">
+</div>
+<?= Form::close() ?>

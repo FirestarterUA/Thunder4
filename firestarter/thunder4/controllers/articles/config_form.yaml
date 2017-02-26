@@ -1,0 +1,10 @@
+name: Articles
+form: $/firestarter/thunder4/models/article/fields.yaml
+modelClass: Firestarter\Thunder4\Models\Article
+defaultRedirect: firestarter/thunder4/articles
+create:
+    redirect: 'firestarter/thunder4/articles/update/:id'
+    redirectClose: firestarter/thunder4/articles
+update:
+    redirect: firestarter/thunder4/articles
+    redirectClose: firestarter/thunder4/articles

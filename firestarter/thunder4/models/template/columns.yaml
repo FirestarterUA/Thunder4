@@ -1,0 +1,11 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: 'firestarter.thunder4::lang.template.form.name'
+        type: text
+        searchable: true
+        sortable: true

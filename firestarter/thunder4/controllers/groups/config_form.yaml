@@ -1,0 +1,11 @@
+name: Groups
+modelClass: Firestarter\Thunder4\Models\Group
+form: $/firestarter/thunder4/models/group/fields.yaml
+defaultRedirect: firestarter/thunder4/groups
+create:
+    redirect: 'firestarter/thunder4/groups/update/:id'
+    redirectClose: firestarter/thunder4/groups
+update:
+    redirect: firestarter/thunder4/groups
+    redirectClose: firestarter/thunder4/groups
+preview: {  }

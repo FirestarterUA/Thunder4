@@ -1,0 +1,8 @@
+groups:
+    label: 'firestarter.thunder4::lang.domain.form.group'
+    view:
+        list: $/firestarter/thunder4/models/group/columns.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        list: $/firestarter/thunder4/models/group/columns.yaml
+        form: $/firestarter/thunder4/models/group/fields.yaml

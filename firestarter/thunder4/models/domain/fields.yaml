@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: 'firestarter.thunder4::lang.domain.form.name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    
+    theme:
+        label: 'firestarter.thunder4::lang.domain.form.theme'        
+        span: auto
+        type: dropdown

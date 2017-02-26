@@ -1,0 +1,11 @@
+scopes:
+    domain:
+        label: Домен
+        modelClass: Firestarter\Thunder4\Models\Domain
+        conditions: domain_id in (:filtered)
+        nameFrom: name
+    parent:
+        label: Родительская категория
+        modelClass: Firestarter\Thunder4\Models\Category
+        conditions: parent_id in (:filtered)
+        nameFrom: name

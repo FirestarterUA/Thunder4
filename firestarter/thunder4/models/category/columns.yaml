@@ -1,0 +1,14 @@
+columns:
+    name:
+        label: 'firestarter.thunder4::lang.category.list.name'
+        type: text
+        searchable: true
+    domain:
+        label: 'firestarter.thunder4::lang.category.list.domain'
+        relation: domain
+        select: name
+    reorder:
+        label: 'firestarter.thunder4::lang.category.list.reorder'
+        type: partial
+        cssClass: nolink
+        path: ~/plugins/firestarter/thunder4/controllers/categories/_reorder_column.htm

@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: 'firestarter.thunder4::lang.keyword.form.name'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    files:
+        label: 'firestarter.thunder4::lang.keyword.form.files'
+        type: fileupload
+        mode: file
+        fileTypes: txt
+        mimeTypes: txt
