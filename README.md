@@ -31,7 +31,7 @@ Thunder 4 Менеджер неограниченного числа сайто�
 # Установка:
 
   - [Установить Oсtober CMS](https://octobercms.info/docs/help-installation)
-  - [Установить плагин Ocotober.Drivers](https://octobercms.com/plugin/october-drivers)
+  - [Установить плагин October.Drivers](https://octobercms.com/plugin/october-drivers)
   - На [странице](https://github.com/FirestarterUA/Thunder4/tree/master) Clone or download -> Download
   - Содержимое папки Thunder4-master архива распаковать в папку /plugins/ October CMS
   - Активировать плагин в админ панели CMS
