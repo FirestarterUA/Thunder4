@@ -2,7 +2,7 @@
 
 [![Firestarter](http://www.clipartbest.com/cliparts/9TR/zaX/9TRzaXMdc.png)](http://ifirestarter.ru)
 
-Thunder 4 Менеджер неограниченного числа сайтов из одной админ панел и для CMS October CMS.
+Thunder 4 Менеджер неограниченного числа сайтов из одной админ панел и для October CMS.
 
   - Группы
   - Сайты
