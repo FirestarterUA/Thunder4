@@ -11,8 +11,24 @@ Thunder 4 Менеджер неограниченного числа сайто�
   - Шаблоны статей
   - Задачи для CRON 
 
-# Возможност:
+# Возможности:
 
   - Импорт доменов
   - Импорт категорий для сайтов
   - Задачи для атоматического постинга статей по сайтам
+  
+  
+# Системные требования:
+
+  - PHP version 5.5.9 or higher
+  - PDO PHP Extension
+  - cURL PHP Extension
+  - OpenSSL PHP Extension
+  - Mbstring PHP Library
+  - ZipArchive PHP Library
+  - GD PHP Library
+
+# Устновка:
+
+  - [Установить Oсtober CMS]('https://octobercms.info/docs/help-installation')
+  - [Установить плагин Ocotober.Drivers]('https://octobercms.com/plugin/october-drivers')
