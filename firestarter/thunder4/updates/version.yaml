@@ -108,3 +108,6 @@
 1.0.37:
     - 'Updated table firestarter_thunder4_categories'
     - builder_table_update_firestarter_thunder4_categories_12.php
+1.0.38:
+    - 'Updated table firestarter_thunder4_categories'
+    - builder_table_update_firestarter_thunder4_categories_13.php
