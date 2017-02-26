@@ -1,4 +1,4 @@
-# Thunder 4 Mass Site Manager
+# Thunder 4 Mass Site Manager (EN, RU languages supported)
 
 [![Firestarter](http://www.clipartbest.com/cliparts/9TR/zaX/9TRzaXMdc.png)](http://ifirestarter.ru)
 
