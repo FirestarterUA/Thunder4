@@ -28,7 +28,7 @@ Thunder 4 Менеджер неограниченного числа сайто�
   - ZipArchive PHP Library
   - GD PHP Library
 
-# Устновка:
+# Установка:
 
-  - [Установить Oсtober CMS]('https://octobercms.info/docs/help-installation')
-  - [Установить плагин Ocotober.Drivers]('https://octobercms.com/plugin/october-drivers')
+  - [Установить Oсtober CMS](https://octobercms.info/docs/help-installation)
+  - [Установить плагин Ocotober.Drivers](https://octobercms.com/plugin/october-drivers)
