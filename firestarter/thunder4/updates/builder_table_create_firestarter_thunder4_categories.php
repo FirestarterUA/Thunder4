@@ -10,14 +10,14 @@ class BuilderTableCreateFirestarterThunder4Categories extends Migration
 		Schema::create('firestarter_thunder4_categories', function($table)
 		{
 			$table->engine = 'InnoDB';
-			$table->integer('id');
-			$table->string('slug');
-			$table->string('name');
-			$table->integer('domain_id');
-			$table->integer('parent_id');
+			$table->increments('id');
+			$table->string('slug')->nullable();
+			$table->string('name')->nullable();
+			$table->integer('domain_id')->default(1);
+			$table->integer('parent_id')->default(1);
 			$table->integer('nest_left');
 			$table->integer('nest_right');
-			$table->integer('nest_depth');
+			$table->integer('nest_depth')->default(0);
 
 		});
 	}

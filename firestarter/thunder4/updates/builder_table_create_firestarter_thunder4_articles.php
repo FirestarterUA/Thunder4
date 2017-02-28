@@ -10,14 +10,14 @@ class BuilderTableCreateFirestarterThunder4Articles extends Migration
 		Schema::create('firestarter_thunder4_articles', function($table)
 		{
 			$table->engine = 'InnoDB';
-			$table->integer('id');
-			$table->string('keyword');
-			$table->string('title');
-			$table->text('description');
-			$table->text('body');
-			$table->integer('category_id');
-			$table->timestamps();
-			$table->string('slug');
+			$table->increments('id');
+			$table->string('keyword')->nullable();
+			$table->string('title')->nullable();
+			$table->string('slug')->nullable();
+			$table->text('description')->nullable();
+			$table->text('body')->nullable();
+			$table->integer('category_id')->default(1);
+			$table->timestamps();		
 		});
 	}
 

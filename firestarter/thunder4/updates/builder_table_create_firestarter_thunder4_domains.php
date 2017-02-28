@@ -10,9 +10,9 @@ class BuilderTableCreateFirestarterThunder4Domains extends Migration
 		Schema::create('firestarter_thunder4_domains', function($table)
 		{
 			$table->engine = 'InnoDB';
-			$table->integer('id');
-			$table->string('name');
-			$table->string('theme');
+			$table->increments('id');
+			$table->string('name')->nullable();
+			$table->string('theme')->nullable();
 		});
 	}
 
