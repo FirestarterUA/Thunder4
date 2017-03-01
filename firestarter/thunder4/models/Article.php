@@ -19,12 +19,14 @@ class Article extends Model
 	public $rules = [
 	];
 
-	protected $slugs = ['slug' => 'title'];
-
-	/**
-	 * @var string The database table used by the model.
-	 */
 	public $table = 'firestarter_thunder4_articles';
+
+	public $belongsTo = [
+		'category' => ['Firestarter\Thunder4\Models\Category', 'key' => 'category_id'],
+		'domain' => ['Firestarter\Thunder4\Models\Domain', 'key' => 'domain_id']
+	];
+
+	protected $slugs = ['slug' => 'title'];
 
 	protected function getDepthIndicators($depth = 0, $indicators = '') {
 		if ($depth < 1) {
@@ -35,9 +37,11 @@ class Article extends Model
 
 	public function getCategoryIdOptions(){
 
-		$items = Category::where('domain_id', $this->domain )->get();		
+		if($this->domain_id == null) return  []; 
 
-		$output=[];
+		$items = Category::where('domain_id', $this->domain_id )->get();	
+
+		$output = ['' => '-- none --'];
 
 		foreach ($items as $item) {
 
@@ -49,31 +53,9 @@ class Article extends Model
 		return $output;
 	}
 
-	public function getDomainOptions() {
+	public function getDomainIdOptions() {
 
-		$domains = [];
-
-		if($this->category) {
-
-			$this->domain = (int) $this->category->domain->id;
-
-			$domains[$this->category->domain->id] = $this->category->domain->name;
-		}
-
-		foreach(Domain::all()->lists('name', 'id') as $key => $value) {
-			$domains[$key] = $value;
-		}
-
-		return $domains;
-
+		return Domain::all()->lists('name', 'id');
 	}
-
-	public function beforeSave() {
-	   	unset($this->domain);
-	}
-
-	public $belongsTo = [
-		'category' => ['Firestarter\Thunder4\Models\Category', 'key' => 'category_id']
-	];
 
 }

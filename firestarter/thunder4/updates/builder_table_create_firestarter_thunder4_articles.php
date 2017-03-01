@@ -17,6 +17,7 @@ class BuilderTableCreateFirestarterThunder4Articles extends Migration
 			$table->text('description')->nullable();
 			$table->text('body')->nullable();
 			$table->integer('category_id')->default(1);
+			$table->integer('domain_id')->default(1);
 			$table->timestamps();		
 		});
 	}

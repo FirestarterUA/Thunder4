@@ -11,7 +11,7 @@ fields:
         preset:
             field: name
             type: url
-    domain:
+    domain_id:
         label: 'firestarter.thunder4::lang.category.form.domain'
         oc.commentPosition: ''
         span: auto
@@ -21,4 +21,4 @@ fields:
         oc.commentPosition: ''
         span: auto
         type: dropdown
-        dependsOn: domain
+        dependsOn: domain_id

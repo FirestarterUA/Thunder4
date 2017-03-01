@@ -24,6 +24,16 @@ class Category extends Model
 	public $rules = [
 	];
 
+	public $table = 'firestarter_thunder4_categories';
+
+	public $belongsTo = [
+		'domain' => 'Firestarter\Thunder4\Models\Domain'
+	];
+
+	public $hasMany = [
+		'articles' => 'Firestarter\Thunder4\Models\Article'
+	];
+
 	protected $slugs = ['slug' => 'name'];
 
 	protected function getDepthIndicators($depth = 0, $indicators = '')
@@ -52,19 +62,11 @@ class Category extends Model
 		return $output;
 	}
 
-	public function getDomainOptions(){
+	public function getDomainIdOptions(){
 
 		return Domain::all()->lists('name', 'id');
 		
 	}
 
-	public $table = 'firestarter_thunder4_categories';
 
-	public $belongsTo = [
-		'domain' => 'Firestarter\Thunder4\Models\Domain'
-	];
-
-	public $hasMany = [
-		'articles' => 'Firestarter\Thunder4\Models\Article'
-	];
 }
