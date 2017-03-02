@@ -111,9 +111,9 @@ class SeSnippets extends Command
 			'snippets' => $this->getBingSnippets($body)
 		];
 
-
 		$article = new Article;
 		$article->category_id = $random_category->id;
+		$article->domain_id = $random_category->domain_id;
 		$article->title = Twig::parse($at->title_template, $data);
 		$article->keyword = $keyword;
 		$article->description = $keyword;
