@@ -30,6 +30,7 @@
             'categories' => 'Categories',
             'theme' => 'Theme',
             'se' => 'SE Index',
+            'articles_count' =>'Articles Count'
         ],
         'menu' => [
             'title' => 'Domains',
@@ -72,6 +73,7 @@
             'title' => 'Title',
             'domain' => 'Domain',
             'category' => 'Category',
+
         ],
         'menu' => [
             'title' => 'Article',

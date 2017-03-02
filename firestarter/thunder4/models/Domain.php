@@ -39,7 +39,8 @@ class Domain extends Model
 
 	public $hasMany = [
 		'categories' =>['Firestarter\Thunder4\Models\Category'],
-		'articles' =>['Firestarter\Thunder4\Models\Article']
+		'articles' =>['Firestarter\Thunder4\Models\Article'],
+		'articles_count' => ['Firestarter\Thunder4\Models\Article', 'count' => true]
 	];
 
 	public function getThemeOptions()

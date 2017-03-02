@@ -23,7 +23,7 @@ class Article extends Model
 
 	public $belongsTo = [
 		'category' => ['Firestarter\Thunder4\Models\Category', 'key' => 'category_id'],
-		'domain' => ['Firestarter\Thunder4\Models\Domain', 'key' => 'domain_id']
+		'domain' => ['Firestarter\Thunder4\Models\Domain', 'key' => 'domain_id'],
 	];
 
 	protected $slugs = ['slug' => 'title'];

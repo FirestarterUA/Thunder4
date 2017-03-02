@@ -20,6 +20,7 @@ class Plugin extends PluginBase
 	}
 
 	public function registerSchedule($schedule) {
+
 		$tasks = Task::all();
 				
 		foreach ($tasks as $task) {
@@ -34,8 +35,4 @@ class Plugin extends PluginBase
 			}
 		}	
 	}
-
-	public function registerComponents() {}
-
-	public function registerSettings() {}
 }

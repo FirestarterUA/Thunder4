@@ -9,6 +9,11 @@ columns:
         type: text
         searchable: true
         sortable: true
+    articles_count:
+        label: 'firestarter.thunder4::lang.domain.list.articles_count'
+        relation: articles_count
+        valueFrom: count
+        default: 0
     se:
         label: 'firestarter.thunder4::lang.domain.list.se'
         type: partial
